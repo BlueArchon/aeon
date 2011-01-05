@@ -263,13 +263,13 @@
           <visible>Container.Content(movies) + Skin.HasSetting(youtrailer)</visible>
           <description>Trailers</description>
         </item>
-        <item id="6">
-          <label>314122</label>
-          <visible>Container.Content(movies)</visible>
-          <onclick>Playlist.Clear</onclick>
-          <onclick>Dialog.Close(MovieInformation)</onclick>
-          <onclick>RunScript(special://home/scripts/Home Theater Experience/default.py)</onclick>
-        </item>
+		<item id="6">
+			<label>Cinema</label>
+			<visible>Container.Content(movies)</visible>
+			<onclick>Playlist.Clear</onclick>
+			<onclick>Dialog.Close(MovieInformation)</onclick>
+			<onclick>RunScript(special://home/addons/script.cinema.experience/addon.py)</onclick>
+		</item>
         <item id="7">
           <label>31410</label>
           <onclick>SendClick(2003,6)</onclick>
